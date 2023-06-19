@@ -22,174 +22,192 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMacPro1,1-EH01-internal-hub</key>
+		<key>iMacPro1,1-XHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>XHCI</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x8d318086</string>
 			<key>IOProbeScore</key>
 			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleUSB20InternalHub</string>
+			<string>AppleUSBXHCILPTH</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
-				CAAAAA==
+				FAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>HP11</key>
+					<key>HS01</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
 						<key>name</key>
-						<string>HP11</string>
+						<string>HS01</string>
 						<key>port</key>
 						<data>
 						AQAAAA==
 						</data>
-						<key>portType</key>
-						<integer>3</integer>
 					</dict>
-					<key>HP12</key>
+					<key>HS02</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
 						<key>name</key>
-						<string>HP12</string>
+						<string>HS02</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
 						</data>
-						<key>portType</key>
-						<integer>3</integer>
 					</dict>
-					<key>HP13</key>
+					<key>HS03</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
 						<key>name</key>
-						<string>HP13</string>
+						<string>HS03</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
 						</data>
-						<key>portType</key>
-						<integer>3</integer>
 					</dict>
-					<key>HP14</key>
+					<key>HS05</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
 						<key>name</key>
-						<string>HP14</string>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-						<key>portType</key>
-						<integer>3</integer>
-					</dict>
-					<key>HP15</key>
-					<dict>
-						<key>name</key>
-						<string>HP15</string>
+						<string>HS05</string>
 						<key>port</key>
 						<data>
 						BQAAAA==
 						</data>
-						<key>portType</key>
-						<integer>3</integer>
 					</dict>
-					<key>HP16</key>
+					<key>HS06</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
 						<key>name</key>
-						<string>HP16</string>
+						<string>HS06</string>
 						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
-						<key>portType</key>
+					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS09</string>
+						<key>port</key>
+						<data>
+						CQAAAA==
+						</data>
+					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS10</string>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS11</string>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
+					<key>HS13</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS13</string>
+						<key>port</key>
+						<data>
+						DQAAAA==
+						</data>
+					</dict>
+					<key>HS14</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HS14</string>
+						<key>port</key>
+						<data>
+						DgAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>UsbConnector</key>
 						<integer>3</integer>
-					</dict>
-					<key>HP17</key>
-					<dict>
 						<key>name</key>
-						<string>HP17</string>
+						<string>SS02</string>
 						<key>port</key>
 						<data>
-						BwAAAA==
+						EQAAAA==
 						</data>
-						<key>portType</key>
-						<integer>0</integer>
 					</dict>
-					<key>HP18</key>
+					<key>SS03</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>name</key>
-						<string>HP18</string>
+						<string>SS03</string>
 						<key>port</key>
 						<data>
-						CAAAAA==
+						EgAAAA==
 						</data>
-						<key>portType</key>
-						<integer>0</integer>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
+						<key>port</key>
+						<data>
+						EwAAAA==
+						</data>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS05</string>
+						<key>port</key>
+						<data>
+						FAAAAA==
+						</data>
 					</dict>
 				</dict>
 			</dict>
-			<key>locationID</key>
-			<integer>487587840</integer>
-			<key>model</key>
-			<string>iMacPro1,1</string>
-		</dict>
-		<key>iMacPro1,1-EH02-internal-hub</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
-			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSB20InternalHub</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				BgAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>HP21</key>
-					<dict>
-						<key>name</key>
-						<string>HP21</string>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-						<key>portType</key>
-						<integer>0</integer>
-					</dict>
-					<key>HP22</key>
-					<dict>
-						<key>name</key>
-						<string>HP22</string>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-						<key>portType</key>
-						<integer>0</integer>
-					</dict>
-					<key>HP26</key>
-					<dict>
-						<key>name</key>
-						<string>HP26</string>
-						<key>port</key>
-						<data>
-						BgAAAA==
-						</data>
-						<key>portType</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-			</dict>
-			<key>locationID</key>
-			<integer>437256192</integer>
 			<key>model</key>
 			<string>iMacPro1,1</string>
 		</dict>
